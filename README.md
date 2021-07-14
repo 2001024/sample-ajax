@@ -8,3 +8,12 @@ ajaxのgetを行うためのテンプレート
 formData = {};
 ```
 {}は空のjsonオブジェクト
+```javascript
+formData["paraml"] = "テスト";
+```
+formDataのプロパティはFormdata["プロパティ文字列"]に値をセットして作成される。
+formDataのプロパティはFormdata.プロパティ文字列と書くこともできます。
+```javascript
+formData.paraml = "テスト";
+```
+##jQuery側からサーバへデータを送る
